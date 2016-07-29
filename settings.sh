@@ -39,5 +39,10 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 echo "Disabling AirDrop ..."
 defaults write com.apple.NetworkBrowser DisableAirDrop -bool YES
 
+echo "Changing screenshots directory to ~/Screenshots"
+mkdir -p $HOME/Screenshots
+defaults write com.apple.screencapture location $HOME/Screenshots
+killall SystemUIServer
+
 echo "Done! Reloading Finder ..."
 killall Finder

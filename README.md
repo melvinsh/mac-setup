@@ -21,6 +21,7 @@ echo "Enabling Firewall ..."
 echo "Setting screensaver to lock immediately ..."
 echo "Starting locate database building service ..."
 echo "Disabling AirDrop ..."
+echo "Changing screenshots directory to ~/Screenshots"
 ```
 
 ### Usage
