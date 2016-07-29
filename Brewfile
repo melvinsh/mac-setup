@@ -10,6 +10,7 @@ brew "mas"
 
 # Software
 cask "spotify"
+cask "tunnelblick"
 cask "vlc"
 mas "Divvy", id: 413857545
 mas "The Unarchiver", id: 425424353
