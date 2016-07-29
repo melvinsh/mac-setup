@@ -1,6 +1,4 @@
 #!/bin/sh
-append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
-
 HOMEBREW_PREFIX="/usr/local"
 
 if [ -d "$HOMEBREW_PREFIX" ]; then

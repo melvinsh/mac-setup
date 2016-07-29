@@ -17,7 +17,9 @@ source homebrew.sh
 
 set -e
 
+# Create a ~/.bin folder for executables.
 if [ ! -d "$HOME/.bin/" ]; then mkdir "$HOME/.bin"; fi
+append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
 
 cat << 'EOF'
  ___           _        _ _ _                   _          __  __ 
