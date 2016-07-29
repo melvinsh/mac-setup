@@ -9,6 +9,7 @@ brew "tree"
 brew "mas"
 
 # Software
+cask "dropbox"
 cask "spotify"
 cask "tunnelblick"
 cask "vlc"
