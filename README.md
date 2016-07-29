@@ -24,6 +24,16 @@ echo "Disabling AirDrop ..."
 echo "Changing screenshots directory to ~/Screenshots"
 ```
 
+It also creates a sourced `~/.aliases` file with the following aliases:
+```
+alias gi="git init"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias rm="srm"
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+```
+
 ### Usage
 ```
 ./mac.sh

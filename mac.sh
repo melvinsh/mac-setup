@@ -21,6 +21,10 @@ set -e
 if [ ! -d "$HOME/.bin/" ]; then mkdir "$HOME/.bin"; fi
 append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
 
+# Create ~/.aliases and source it.
+cp .aliases $HOME
+append_to_zshrc 'source $HOME/.aliases'
+
 cat << 'EOF'
  ___           _        _ _ _                   _          __  __ 
 |_ _|_ __  ___| |_ __ _| | (_)_ __   __ _   ___| |_ _   _ / _|/ _|
