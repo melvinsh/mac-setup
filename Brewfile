@@ -10,6 +10,7 @@ brew "mas"
 
 # Software
 cask "dropbox"
+cask "flux"
 cask "spotify"
 cask "tunnelblick"
 cask "vlc"
