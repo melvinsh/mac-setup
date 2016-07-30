@@ -7,6 +7,8 @@ brew "zsh"
 brew "htop"
 brew "tree"
 brew "mas"
+brew "watch"
+brew "wget"
 
 # Software
 cask "dropbox"
