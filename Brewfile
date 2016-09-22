@@ -6,15 +6,12 @@ brew "vim"
 brew "zsh"
 brew "htop"
 brew "tree"
-brew "mas"
 brew "watch"
 brew "wget"
 
 # Software
-cask "dropbox"
 cask "flux"
 cask "spotify"
-cask "tunnelblick"
 cask "vlc"
 
 # Image manipulation
