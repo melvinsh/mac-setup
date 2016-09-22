@@ -18,7 +18,7 @@ cask "vlc"
 brew "imagemagick"
 
 # Testing
-brew "qt"
+# brew "qt" -> currently broken on Sierra
 
 # Programming languages
 brew "libyaml" # should come after openssl
