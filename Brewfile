@@ -29,6 +29,3 @@ brew "ruby-build"
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
-
-# Other
-brew "dark-mode"

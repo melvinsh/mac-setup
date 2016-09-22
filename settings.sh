@@ -4,9 +4,6 @@ echo "Enabling three-finger drag ..."
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
 
-echo "Enabling dark mode ..."
-dark-mode --mode Dark
-
 echo "Unhiding Library in Finder ..."
 chflags nohidden ~/Library
 
