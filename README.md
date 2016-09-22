@@ -2,7 +2,7 @@
 Setup script for a new macOS machine. Includes UNIX tools, latest Ruby and Elixir, software and sane defaults.
 
 - UNIX: git, openssl, tmux, vim, zsh, htop, tree, watch, wget.
-- Software: Dropbox, Flux, Spotify, Tunnelblick, VLC.
+- Software: Flux, Spotify, VLC.
 - Ruby: with rbenv, latest Ruby version through ruby-build, node and imagemagick/qt.
 - Elixir: Erlang, kiex and latest Elixir version.
 - Databases: Postgres and Redis.
