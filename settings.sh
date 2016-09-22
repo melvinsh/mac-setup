@@ -10,9 +10,6 @@ dark-mode --mode Dark
 echo "Unhiding Library in Finder ..."
 chflags nohidden ~/Library
 
-echo "Disabling Desktop icons (AKA force clean Desktop) ..."
-defaults write com.apple.finder CreateDesktop -bool false
-
 echo "Setting Default Finder Location to Home Folder ..."
 defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
@@ -35,9 +32,6 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 echo "Starting locate database building service ..."
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
-
-echo "Disabling AirDrop ..."
-defaults write com.apple.NetworkBrowser DisableAirDrop -bool YES
 
 echo "Changing screenshots directory to ~/Screenshots"
 mkdir -p $HOME/Screenshots
